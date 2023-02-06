@@ -1,0 +1,35 @@
+.news-feed .options-bar {
+  width: 100%;
+  background-color: #464955;
+}
+.categories {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.categories p {
+  cursor: pointer;
+  margin: 0.5em 1em;
+  font-size: x-large;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #1095c5;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.categories p:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+.flags {
+  display: flex;
+  align-items: center;
+}
+.flags img {
+  width: 35px;
+  height: 20px;
+  margin: 0 0.25em;
+  cursor: pointer;
+}
